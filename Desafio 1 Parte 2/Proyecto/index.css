@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+}
+
+#barraNavegacion {
+    display: flex;
+    align-items: center;
+    background-color: #341404;
+}
+
+#barraNavegacion h1 {
+    color: #f2cba6;
+    margin-left: 75%;
+}
+
+#barraNavegacion img {
+    margin-right: 20px;
+    width: 9%;
+    height: 9%;
+}
+
+#menu {
+    text-align: center;
+    background-color: #341404;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#menu ul {
+    display: inline-block;
+    list-style: none;
+}
+
+#menu ul a {
+    font-family: 'Chantelli Antiqua', sans-serif;
+    text-decoration: none;
+    color: #f2cba6;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu input {
+    background-color: #f2cba6;
+    font-family: 'Chantelli Antiqua', sans-serif;
+}
+
+h2 {
+    color: #df740f;
+    font-family: 'Voga', sans-serif;
+    text-align: center;
+}
+
+#taconOro {
+    margin-left: 20%;
+    float: right;
+    background-color: white;
+    margin-right: 20%;
+}
+
+main{
+    background-color: #e3e4e5;
+}
+
+#taconOro img {
+    width: 400px;
+    height: 300px;
+    float: right;
+}
+
+#texto {
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    margin-left: 9%;
+    margin-top: 10%;
+}
+
+#imagen1 img,
+#imagen2 img,
+#imagen3 img,
+#imagen4 img{
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#imagen1 h5,
+#imagen2 h5,
+#imagen3 h5,
+#imagen4 h5{
+    text-align: center;
+    font-family: 'Chantelli Antiqua', sans-serif;
+}
+
+#imagen1 p,
+#imagen2 p,
+#imagen3 p,
+#imagen4 p{
+    text-align: center;
+    font-family: 'Chantelli Antiqua', sans-serif;
+}
+
+#imagen1 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#imagen2{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+#imagen3 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#imagen4{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+#descripcionPieles {
+    margin-left: 20%;
+    float: right;
+    margin-right: 20%;
+    background-color: white;
+}
+
+#descripcionPieles img {
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+
+#descripcionPieles p {
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    margin-left: 9%;
+    margin-top: 10%;
+}
+
+#tela1 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#tela2{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+#tela1 img,
+#tela2 img,
+#tela3 img,
+#tela4 img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#tela1 h5,
+#tela2 h5,
+#tela3 h5,
+#tela4 h5 {
+    text-align: center;
+    font-family: 'Chantelli Antiqua', sans-serif;
+}
+
+#tela3 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#tela4 {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+#tiendas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Chantelli Antiqua', sans-serif;
+}
+
+footer {
+    background-color: #341404;
+    color: #f2cba6; 
+    padding: 20px;
+    font-family: 'Chantelli Antiqua', sans-serif;
+  }
+
+#redesSociales a {
+    text-decoration: none; 
+    margin-right: 10px; 
+    transition: color 0.3s; 
+}
+
+#redesSociales img{
+    width: 30px;
+    height: 30px;
+}
+
+h2,
+#texto,
+#pieles{
+    margin-bottom: 10px;
+}
+
+#parrafoProductos p{
+    text-align: center;
+}
+
+#parrafoProductos{
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    margin-left: 27%;
+    padding: 50px;
+    background-color: white;
+    font-family: 'Medio', sans-serif;
+}
+
+#tiendass{
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    margin-left: 35%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    font-family: 'Medio', sans-serif;
+}

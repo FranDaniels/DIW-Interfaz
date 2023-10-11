@@ -1,0 +1,187 @@
+*
+{
+    margin: 0;
+    font-family: 'Medio', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+#barraNavegacion {
+    display: flex;
+    align-items: center;
+    background-color: #341404;
+}
+
+#barraNavegacion h1{
+    color: #f2cba6;
+    margin-left: 75%;
+}
+
+#barraNavegacion img {
+    margin-right: 20px;
+    width: 9%;
+    height: 9%;
+}
+
+#menu {
+    text-align: center; 
+    background-color: #341404;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#menu ul {
+    display: inline-block; 
+    list-style: none;
+}
+
+#menu ul a {
+    text-decoration: none;
+    color: #f2cba6; 
+}
+
+#menu input{
+    background-color: #f2cba6;
+}
+
+#categorias{
+    float: left;
+    width: 30%;
+}
+
+footer {
+    background-color: #341404;
+    color: #f2cba6; 
+    padding: 20px;
+  }
+
+#redesSociales a {
+    text-decoration: none; 
+    margin-right: 10px; 
+    transition: color 0.3s; 
+}
+
+#redesSociales img{
+    width: 30px;
+    height: 30px;
+}
+
+#catalogo{
+    float: right;
+    width: 70%;
+}
+
+#imagen1 img,
+#imagen2 img,
+#imagen3 img,
+#imagen4 img{
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+#zapatos h3,
+#tacones h3,
+#bolsos h3,
+#cinturones h3{
+    text-align: center;
+}
+
+#imagen1 h5,
+#imagen2 h5,
+#imagen3 h5,
+#imagen4 h5{
+    text-align: center;
+}
+
+#imagen1 p,
+#imagen2 p,
+#imagen3 p,
+#imagen4 p{
+    text-align: center;
+}
+
+#imagen1 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#imagen2{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+#imagen3 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#imagen4{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-content a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+#categorias a{
+    text-decoration: none;
+    color: #df740f;
+}
+
+#categorias ul {
+    list-style: none;
+    text-align: center;
+}
+
+#categorias{
+    position: fixed;
+    width: 30%;
+    font-family: 'Voga', sans-serif;
+}
+
+h3{
+    color: #df740f;
+    font-family: 'Voga', sans-serif;    
+    text-align: center;
+}
+
+h5{
+    color: black;
+}
+
+p,h3{
+    margin-bottom: 20px;
+}
+
+main{
+    background-color: #e3e4e5;
+}
+
+p{
+    font-family: 'Voga', sans-serif; 
+}
